@@ -1,4 +1,4 @@
-package club.mtuopensource.algorithms.util.test;
+package club.mtuopensource.algorithms.tests.util;
 
 import static org.junit.Assert.*;
 
