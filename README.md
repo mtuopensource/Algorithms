@@ -11,12 +11,12 @@ A collection of algorithms, implemented in Java.
  We require that all changes are documented clearly and concisely. Please read the [contributing guidelines](https://github.com/mtuopensource/Algorithms/blob/master/.github/CONTRIBUTING.md) for more information.
 
 ## Building
-1.  Clone this repository: `git clone https://github.com/mtuopensource/husky-chow.git`
+1.  Clone this repository: `git clone https://github.com/mtuopensource/Algorithms.git`
 2.  Open a terminal and navigate to the root directory of the project
 3.  Run `gradlew build`
 
 ## Unit Testing
-1.  Clone this repository: `git clone https://github.com/mtuopensource/husky-chow.git`
+1.  Clone this repository: `git clone https://github.com/mtuopensource/Algorithms.git`
 2.  Open a terminal and navigate to the root directory of the project
 3.  Run `gradlew test`
 
