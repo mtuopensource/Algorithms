@@ -20,5 +20,24 @@ A collection of algorithms, implemented in Java.
 2.  Open a terminal and navigate to the root directory of the project
 3.  Run `gradlew test`
 
+## Current Algorithms Completed
+- ### Sort
+  - [ ] bubble sort
+  - [ ] selection sort
+  - [ ] insertion sort
+  - [ ] shell sort
+  - [ ] merge sort
+  - [ ] quick sort
+  - [ ] heap sort
+- ### Search
+  - [ ] binary search
+- ### Path Finding
+  - [ ] Dijkstra
+  - [ ] A*
+  
+- ### Misc
+  - [x] is palindrome
+
+
 ## Copyright and License
 Code released under [MIT License](LICENSE).
