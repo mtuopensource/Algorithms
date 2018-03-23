@@ -1,6 +1,4 @@
-package club.mtuopensource.algorithms.util;
-
-import java.util.Comparator;
+package club.mtuopensource.algorithms.sort;
 
 /**
  * Sorts an array using QuickSort
@@ -8,13 +6,11 @@ import java.util.Comparator;
  * Last Modified: 3 - 1 - 18
  * @param <E> type of data to be sorted
  */
-public class QuickSort<E extends Comparable<E>> implements Sorter<E> {
+public class QuickSort<E extends Comparable<E>> implements ISort<E> {
 
-	private Comparator<E> c = new DefaultComparator<>();
-
-	@TimeComplexity("O(nlog(n))")
 	public void sort(E[] array) {
 		/* TCJ
+		 * O(nlog(n))
 		 * calls the quickSort method which has a worst case of O(nlog(n))
 		 */
 		quickSort(array, 0, array.length - 1);
@@ -26,9 +22,9 @@ public class QuickSort<E extends Comparable<E>> implements Sorter<E> {
 	 * @param l lowest index
 	 * @param r highest index
 	 */
-	@TimeComplexity("O(nlog(n))")
 	private void quickSort(E[] array, int l, int r) {
 		/* TCJ
+		 * O(nlog(n))
 		 * recursively calls quickSort log(n) times and calls partition with a worst case of O(n)
 		 * therefore it has a worst case of O(nlog(n))
 		 */
@@ -46,9 +42,9 @@ public class QuickSort<E extends Comparable<E>> implements Sorter<E> {
 	 * @param r the highest index
 	 * @return the index for the partition
 	 */
-	@TimeComplexity("O(n)")
 	private int partition(E[] array, int l, int r) {
 		/* TCJ
+		 * O(n)
 		 * has a for loop that can run n times
 		 * therefore has a worst case of O(n)
 		 */
@@ -56,7 +52,7 @@ public class QuickSort<E extends Comparable<E>> implements Sorter<E> {
 		E x = array[r];
 
 		for (int j = l; j < r; j++) {
-			if (c.compare(array[j], x) <= 0) {
+			if (array[j].compareTo(x) <= 0) {
 				E temp = array[j];
 				array[j] = array[i + 1];
 				array[i + 1] = temp;
