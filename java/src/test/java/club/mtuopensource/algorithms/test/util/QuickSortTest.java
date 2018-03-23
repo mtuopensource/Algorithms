@@ -1,11 +1,13 @@
 package club.mtuopensource.algorithms.test.util;
 
+import club.mtuopensource.algorithms.sort.ISort;
+import club.mtuopensource.algorithms.sort.QuickSort;
 import org.junit.*;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class QuickSortTest{
-	Sorter <Integer> sorter;
+	ISort<Integer> sorter;
 
 	@Before
 	public void setup() {
