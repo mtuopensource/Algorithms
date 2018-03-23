@@ -1,3 +1,5 @@
+package club.mtuopensource.algorithms.util;
+
 import java.util.Comparator;
 
 /**
