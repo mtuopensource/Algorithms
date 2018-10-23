@@ -1,44 +1,16 @@
-# Algorithms
-A collection of algorithms, implemented in Java.
+# Algorithms [![Algorithms](https://img.shields.io/github/license/mtuopensource/Algorithms.svg)](https://github.com/mtuopensource/Algorithms)
 
-## Table of Contents
- - [Documentation](#documentation)
- - [Building](#building)
- - [Unit Testing](#unit-testing)
- - [Copyright and License](#copyright-and-license)
+Collection of algorithms implemented in various programming languages. 
 
-## Documentation
- We require that all changes are documented clearly and concisely. Please read the [contributing guidelines](https://github.com/mtuopensource/Algorithms/blob/master/.github/CONTRIBUTING.md) for more information.
+## Getting started
+```
+$ git checkout git@github.com:mtuopensource/Algorithms.git
+```
 
-## Building
-1.  Clone this repository: `git clone https://github.com/mtuopensource/Algorithms.git`
-2.  Open a terminal and navigate to the root directory of the project
-3.  Run `gradlew build`
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-## Unit Testing
-1.  Clone this repository: `git clone https://github.com/mtuopensource/Algorithms.git`
-2.  Open a terminal and navigate to the root directory of the project
-3.  Run `gradlew test`
+Please make sure to update tests as appropriate.
 
-## Current Algorithms Completed
-- ### Sort
-  - [ ] bubble sort
-  - [ ] selection sort
-  - [ ] insertion sort
-  - [ ] shell sort
-  - [ ] merge sort
-  - [x] quick sort
-  - [ ] heap sort
-- ### Search
-  - [x] linear search
-  - [x] binary search
-- ### Path Finding
-  - [x] Dijkstra
-  - [ ] A*
-  
-- ### Misc
-  - [x] is palindrome
-
-
-## Copyright and License
-Code released under [MIT License](LICENSE).
+## License
+This project is licensed under the terms of the [GNU General Public License 2.0](https://choosealicense.com/licenses/gpl-2.0/).
