@@ -27,12 +27,13 @@ A collection of algorithms, implemented in Java.
   - [ ] insertion sort
   - [ ] shell sort
   - [ ] merge sort
-  - [ ] quick sort
+  - [x] quick sort
   - [ ] heap sort
 - ### Search
-  - [ ] binary search
+  - [x] linear search
+  - [x] binary search
 - ### Path Finding
-  - [ ] Dijkstra
+  - [x] Dijkstra
   - [ ] A*
   
 - ### Misc
