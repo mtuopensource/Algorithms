@@ -1,4 +1,5 @@
 package club.mtuopensource.algorithms.sort;
+import java.util.ArrayList;
 
 public interface ISort<T extends Comparable<T>> {
 
@@ -7,5 +8,5 @@ public interface ISort<T extends Comparable<T>> {
      * Sorts the given array in increasing order.
      * @param T[] array to be sorted.
      */
-    void sort(T[] array);
+    void sort(ArrayList<T> array);
 }
