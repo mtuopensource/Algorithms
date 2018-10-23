@@ -1,6 +1,6 @@
 # Algorithms: Java [![Algorithms](https://img.shields.io/github/license/mtuopensource/Algorithms.svg)](https://github.com/mtuopensource/Algorithms)
 
-Foobar is a Python library for dealing with word pluralization.
+Collection of algorithms implemented in Java. 
 
 ## Installation
 
@@ -29,5 +29,29 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 Please make sure to update tests as appropriate.
 
+## Algorithms
+### Sort
+- [x] Quick
+- [x] Merge
+- [ ] Insertion
+- [ ] Selection
+- [ ] Heap
+- [ ] Bubble
+- [ ] Shell
+- [ ] Sleep
+### Search
+- [x] Linear
+- [x] Binary
+### Path Finding
+- [x] Dijkstra's Algorithm
+- [ ] A*
+- [ ] Bellman-Ford
+- [ ] Kruskal's Algorithm
+### Dynamic Programming
+- [ ] Memoized Fibonacci
+- [ ] Knapsack
+### Miscellaneous
+- [x] Is Palindrome
+- [ ] Huffman
 ## License
 This project is licensed under the terms of the [GNU General Public License 2.0](https://choosealicense.com/licenses/gpl-2.0/).
