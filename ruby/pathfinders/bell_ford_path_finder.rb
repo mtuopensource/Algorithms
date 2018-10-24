@@ -13,15 +13,13 @@ class BellFordPathFinder
   def find_smallest_path(vertices, edges, source)
     @vertices = vertices
     @distance = Array.new @vertices.length, INFINITY
-
-
     set_distance source, 0
 
     # relax the edges
-    vertices.length.times do
+    vertices.each do
       edges.each do |edge|
         if get_distance(edge.first) + edge.weight < get_distance(edge.second)
-          set_distance edge.first, get_distance(edge.second) + edge.weight
+          set_distance edge.second, get_distance(edge.first) + edge.weight
         end
       end
     end
@@ -32,12 +30,12 @@ class BellFordPathFinder
         raise('Bad graph, still have negative-weight cycle!')
       end
     end
-
+    puts @distance.to_s
     @distance # returns
   end
 
   def set_distance(vertex, distance)
-    @distance[@vertices.index(vertex)] = distance
+    @distance[@vertices.find_index(vertex)] = distance
   end
 
   def get_distance(vertex)
