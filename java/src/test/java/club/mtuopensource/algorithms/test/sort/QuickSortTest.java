@@ -2,18 +2,21 @@ package club.mtuopensource.algorithms.test.sort;
 
 import club.mtuopensource.algorithms.sort.ISort;
 import club.mtuopensource.algorithms.sort.QuickSort;
-import org.junit.*;
-import org.junit.Test;
-import static org.junit.Assert.*;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+
 import java.util.ArrayList;
 import java.util.Arrays;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 
 public class QuickSortTest{
 	ISort<Integer> sorter;
 	ArrayList<Integer> expectedData;
 	ArrayList<Integer> data;
 
-	@Before
+	@BeforeEach
 	public void setup() {
 		sorter = new QuickSort<Integer>();
 	}

@@ -3,11 +3,13 @@ package club.mtuopensource.algorithms.test.graph;
 import club.mtuopensource.algorithms.graph.Dijkstra;
 import club.mtuopensource.algorithms.graph.Graph;
 import club.mtuopensource.algorithms.graph.Vertex;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
 
-import static junit.framework.TestCase.assertTrue;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class TestDijkstra {
     @Test

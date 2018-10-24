@@ -1,12 +1,12 @@
 package club.mtuopensource.algorithms.test.graph;
 
-import static org.junit.Assert.*;
-
-import club.mtuopensource.algorithms.graph.Graph;
 import club.mtuopensource.algorithms.graph.Edge;
+import club.mtuopensource.algorithms.graph.Graph;
 import club.mtuopensource.algorithms.graph.Vertex;
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class GraphTest {
     private Graph<Integer, Integer> graph;
@@ -17,7 +17,7 @@ public class GraphTest {
     private Edge<Integer, Integer> y;
     private Edge<Integer, Integer> z;
 
-    @Before
+    @BeforeEach
     public void setUp() throws Exception {
         graph = new Graph<>(false);
         a = graph.insertVertex(1);
