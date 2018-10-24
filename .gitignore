@@ -1,1 +1,4 @@
 .DS_Store
+
+# PyCharm and IntelliJ
+.idea/
