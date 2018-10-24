@@ -25,7 +25,8 @@ $ ./gradlew testClasses
 ```
 
 ## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+### Pull requests are welcome! 
+For major changes, please open an issue first to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
 
@@ -33,7 +34,7 @@ Please make sure to update tests as appropriate.
 ### Sort
 - [x] Quick
 - [x] Merge
-- [ ] Insertion
+- [x] Insertion
 - [ ] Selection
 - [ ] Heap
 - [ ] Bubble
