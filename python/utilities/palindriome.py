@@ -1,17 +1,15 @@
 def reverse(s):
 	return s[::-1]
 
-def isPalindrome(s):
+def is_palindrome(s):
 	r = reverse(s) 	#call reverse function
 
 	#check if r and s are equal
-	if (s == r):
-		return True
-	return False
+	return s == r
 
 
 if __name__ == "__main__":
 	s = "kayak"
 	r = "Not a palindrome"
-	print(isPalindrome(s))
-	print(isPalindrome(r))
+	print(is_palindrome(s))
+	print(is_palindrome(r))

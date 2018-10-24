@@ -1,0 +1,1 @@
+from utilities.palindrome import is_palindrome
