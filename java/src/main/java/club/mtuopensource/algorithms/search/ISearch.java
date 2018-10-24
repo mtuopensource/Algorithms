@@ -1,12 +1,14 @@
 package club.mtuopensource.algorithms.search;
 
+import java.util.List;
+
 public interface ISearch<T extends Comparable<T>> {
 
     /**
      * Search
-     * @param T[] array to be searched.
+     * @param List<T> list to be searched.
      * @param T   key being searched for.
-     * @return the index of the key, if it exists within the array. Otherwise, -1.
+     * @return the index of the key, if it exists within the list. Otherwise, -1.
      */
-    int search(T[] array, T key);
+    int search(List<T> array, T key);
 }
