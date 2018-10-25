@@ -25,15 +25,16 @@ public class AutomatedSortTest {
      * Fills two ArrayLists with {@link AutomatedSortTest#NUMBER_OF_ELEMENTS} random Integers.
      * ArrayList one is sorted using the given algorithm, while ArrayList two is sorted using Java's built-in sorting
      * routine. Asserts that ArrayList one equals ArrayList two.
-     * @param algorithm currently being tested for correctness.
+
+     * @param algorithm currently being tested
      */
     @ParameterizedTest
     @MethodSource("getSorters")
     public void sort(Class<? extends ISort> algorithm) {
         try {
-            Supplier<Stream<Integer>> data = () -> new Random(SEED).ints(NUMBER_OF_ELEMENTS).boxed();
-            ArrayList<Integer> a = (ArrayList) data.get().collect(Collectors.toList());
-            ArrayList<Integer> b = (ArrayList) data.get().sorted().collect(Collectors.toList()); // Sorted
+            Supplier<Stream<Integer>> supplier = () -> new Random(SEED).ints(NUMBER_OF_ELEMENTS).boxed();
+            ArrayList<Integer> a = (ArrayList) supplier.get().collect(Collectors.toList());
+            ArrayList<Integer> b = (ArrayList) supplier.get().sorted().collect(Collectors.toList()); // Sorted
             ISort<Integer> sorter = algorithm.newInstance(); // TODO: Deprecated. Can this be replaced with Constructor?
             sorter.sort(a);
             assertEquals(a, b);

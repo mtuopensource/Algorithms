@@ -1,5 +1,7 @@
 package club.mtuopensource.algorithms.search;
 
+import java.util.List;
+
 public class LinearSearch<T extends Comparable<T>> implements ISearch<T> {
 
     /**
@@ -8,9 +10,9 @@ public class LinearSearch<T extends Comparable<T>> implements ISearch<T> {
      * until a match is found, or all elements have been searched.
      */
     @Override
-    public int search(T[] array, T key) {
-        for(int i = 0; i < array.length; i++) {
-            if(array[i] != null && array[i].equals(key)) {
+    public int search(List<T> array, T key) {
+        for(int i = 0; i < array.size(); i++) {
+            if(array.get(i) != null && array.get(i).equals(key)) {
                 return i;
             }
         }
