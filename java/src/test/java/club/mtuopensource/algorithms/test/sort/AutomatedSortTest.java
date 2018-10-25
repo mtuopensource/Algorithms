@@ -25,6 +25,7 @@ public class AutomatedSortTest {
      * Fills two ArrayLists with {@link AutomatedSortTest#NUMBER_OF_ELEMENTS} random Integers.
      * ArrayList one is sorted using the given algorithm, while ArrayList two is sorted using Java's built-in sorting
      * routine. Asserts that ArrayList one equals ArrayList two.
+
      * @param algorithm currently being tested
      */
     @ParameterizedTest

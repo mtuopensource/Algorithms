@@ -16,17 +16,17 @@ Please make sure to update tests as appropriate.
 
 ## Algorithms
 ### Sort
-- [ ] Quick
-- [ ] Merge
-- [ ] Insertion
-- [ ] Selection
-- [ ] Heap
+- [x] Quick
+- [x] Merge
+- [x] Insertion
+- [x] Selection
+- [x] Heap
 - [ ] Bubble
 - [ ] Shell
 - [ ] Sleep
 ### Search
-- [ ] Linear
-- [ ] Binary
+- [x] Linear
+- [x] Binary
 ### Path Finding
 - [ ] Dijkstra's Algorithm
 - [ ] A*
@@ -36,7 +36,7 @@ Please make sure to update tests as appropriate.
 - [ ] Memoized Fibonacci
 - [ ] Knapsack
 ### Miscellaneous
-- [ ] Is Palindrome
+- [x] Is Palindrome
 - [ ] Huffman
 ## License
 This project is licensed under the terms of the [GNU General Public License 2.0](https://choosealicense.com/licenses/gpl-2.0/).
