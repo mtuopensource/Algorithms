@@ -43,7 +43,7 @@ def merge(arr, l, m, r):
 def merge_sort(arr,l,r): 
 	if l < r: 
 
-		m = (l+(r-1))/2
+		m = int((l+(r-1))/2)
 
 		# Sort first and second halves 
 		merge_sort(arr, l, m) 
