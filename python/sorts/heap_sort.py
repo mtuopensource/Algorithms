@@ -32,11 +32,3 @@ def heap_sort(arr):
 		# swap elements
         arr[i], arr[0] = arr[0], arr[i]
         heapify(arr, i, 0) 
-
-if __name__ == "__main__":
-	arr1 = [5, 8, 1, 9, 6, 3, 10, 7, 2, 4]
-	arr2 = [10, 9, 8, 7, 6 ,5, 4, 3, 2, 1]
-	heap_sort(arr1)
-	heap_sort(arr2)
-	print(arr1)
-	print(arr2)
