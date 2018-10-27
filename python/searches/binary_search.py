@@ -1,6 +1,6 @@
 def binary_search(arr, l, r, x):
 	if l <= r:		# Base Case
-		m = (l+r)/2
+		m = int((l+r)/2)
 
 		# Check middle index
 		if arr[m] == x:
