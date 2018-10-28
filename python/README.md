@@ -9,6 +9,20 @@ Collection of algorithms implemented in Python.
 * Windows, Linux, or macOS
 * Python 3.6 and up
 
+## Usage
+```
+from searches import linear_search, binary_search
+from sorts import heap_sort, insertion_sort, merge_sort, quick_sort, selection_sort
+from utilities import is_palindrome
+```
+
+## Unit Tests
+```
+$ python -m searches
+$ python -m sorts
+$ python -m utilities
+```
+
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 

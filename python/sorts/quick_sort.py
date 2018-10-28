@@ -17,11 +17,3 @@ def partition(arr, l, r):
 
 	arr[r], arr[i+1] = arr[i+1], arr[r]
 	return i+1
-
-if __name__ == "__main__":
-	arr1 = [5, 8, 1, 9, 6, 3, 10, 7, 2, 4]
-	arr2 = [10, 9, 8, 7, 6 ,5, 4, 3, 2, 1]
-	quick_sort(arr1, 0, len(arr1) - 1)
-	quick_sort(arr2, 0, len(arr2) - 1)
-	print(arr1)
-	print(arr2)

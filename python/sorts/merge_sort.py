@@ -43,17 +43,9 @@ def merge(arr, l, m, r):
 def merge_sort(arr,l,r): 
 	if l < r: 
 
-		m = (l+(r-1))/2
+		m = int((l+(r-1))/2)
 
 		# Sort first and second halves 
 		merge_sort(arr, l, m) 
 		merge_sort(arr, m+1, r) 
 		merge(arr, l, m, r) 
-
-if __name__ == "__main__":
-	arr1 = [5, 8, 1, 9, 6, 3, 10, 7, 2, 4]
-	arr2 = [10, 9, 8, 7, 6 ,5, 4, 3, 2, 1]
-	merge_sort(arr1, 0, len(arr1) - 1)
-	merge_sort(arr2, 0, len(arr2) - 1)
-	print(arr1)
-	print(arr2)
