@@ -44,7 +44,7 @@ Please make sure to update tests as appropriate.
 - [ ] Heap
 - [ ] Bubble
 - [ ] Shell
-- [ ] Sleep
+- [x] Sleep
 ### Search
 - [ ] Linear
 - [ ] Binary
