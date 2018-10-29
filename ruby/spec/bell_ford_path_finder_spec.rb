@@ -1,8 +1,8 @@
 
 require 'spec_helper'
-require_relative '../../../ruby/pathfinders/ford_path_finder'
-require_relative '../../../ruby/pathfinders/graph'
-require_relative '../../../ruby/pathfinders/edge'
+require_relative '../../ruby/pathfinders/bell_ford_path_finder'
+require_relative '../../ruby/pathfinders/graph'
+require_relative '../../ruby/pathfinders/edge'
 
 
 

@@ -30,7 +30,6 @@ class BellFordPathFinder
         raise('Bad graph, still have negative-weight cycle!')
       end
     end
-    puts @distance.to_s
     @distance # returns
   end
 
