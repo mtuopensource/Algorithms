@@ -1,9 +1,13 @@
 require 'rspec'
+require_relative '../../ruby/sorts/sleep_sort'
+describe 'SleepSort' do
 
-describe 'My behaviour' do
+  it 'should sort an array' do
+    input = [2,5,1,6,4,8,9]
+    expected = input.sort
 
-  it 'should do something' do
+    sort = SleepSort.new
+    expect(sort.sort(input)).to eq(expected)
 
-    true.should == false
   end
 end
