@@ -1,5 +1,5 @@
 import unittest
-from sorts import heap_sort, insertion_sort, merge_sort, quick_sort, selection_sort
+from sorts import heap_sort, insertion_sort, merge_sort, quick_sort, selection_sort, bubble_sort
 
 class TestSorts(unittest.TestCase):
     def test_heap_sort(self):
