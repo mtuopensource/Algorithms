@@ -35,7 +35,7 @@ Please make sure to update tests as appropriate.
 - [x] Insertion
 - [x] Selection
 - [x] Heap
-- [ ] Bubble
+- [x] Bubble
 - [ ] Shell
 - [ ] Sleep
 ### Search
