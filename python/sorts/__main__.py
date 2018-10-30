@@ -62,5 +62,17 @@ class TestSorts(unittest.TestCase):
         selection_sort(c)
         self.assertEqual(c, d)
 
+    def test_bubble_sort(self):
+        a = [5, 8, 1, 9, 6, 3, 10, 7, 2, 4]
+        b = a.copy()
+        b.sort()
+        bubble_sort(a)
+        self.assertEqual(a, b)
+        c = [10, 9, 8, 7, 6 ,5, 4, 3, 2, 1]
+        d = c.copy()
+        d.sort()
+        bubble_sort(c)
+        self.assertEqual(c, d)
+
 if __name__ == "__main__":
     unittest.main()
