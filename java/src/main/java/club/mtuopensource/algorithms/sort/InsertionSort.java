@@ -2,9 +2,9 @@ package club.mtuopensource.algorithms.sort;
 import java.util.ArrayList;
 
 /**
- * Sorts an array using the MergeSort algorithm
+ * Sorts an array using the Insertion Sort algorithm
  * @author Isaac Smith
- * Last Modified: 10 - 23 - 18
+ * Last Modified: 10 - 02 - 19
  */
 public class InsertionSort<E extends Comparable<E>> implements ISort<E> {
 
