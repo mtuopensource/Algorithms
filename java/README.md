@@ -35,7 +35,7 @@ Please make sure to update tests as appropriate.
 - [x] Quick
 - [x] Merge
 - [x] Insertion
-- [ ] Selection
+- [x] Selection
 - [ ] Heap
 - [ ] Bubble
 - [ ] Shell
