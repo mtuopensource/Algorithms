@@ -2,6 +2,7 @@
 
 void bubbleSort(int *array, int length);
 void selectionSort(int *array, int length);
+void insertionSort(int *array, int length);
 
 void printArray(int *array, int length) {
 	int i;
@@ -15,6 +16,8 @@ int main(void) {
 	int arrayOneLength = 10;
     int arrayTwo[] = {100, 90, 80, 70, 60, 50, 40, 30, 20, 10};
     int arrayTwoLength = 10;
+	int arrayThree[] = {23, 45, 12, 0, 1, 99, 88, 77, 44, 100};
+	int arrayThreeLength = 10;
 
 	printf("---Bubble Sort Array Test One---\n");
 	printf("Unsorted: \n");
@@ -32,6 +35,14 @@ int main(void) {
 	selectionSort(arrayTwo, arrayTwoLength);
 	printArray(arrayTwo, arrayTwoLength);	
     
+	printf("\n\n\n");
+
+	printf("---Insertion Sort Array Test One---\n");
+	printf("Unsorted: \n");
+	printArray(arrayThree, arrayThreeLength);	
+	printf("\nSorted: \n");
+	insertionSort(arrayThree, arrayThreeLength);
+	printArray(arrayThree, arrayThreeLength);
 
 	printf("\n");
 	return 0;
