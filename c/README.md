@@ -16,11 +16,11 @@ Please make sure to update tests as appropriate.
 ## Algorithms
 ### Sort
 - [ ] Quick
-- [ ] Merge
-- [ ] Insertion
-- [ ] Selection
+- [x] Merge
+- [x] Insertion
+- [x] Selection
 - [ ] Heap
-- [ ] Bubble
+- [x] Bubble
 - [ ] Shell
 - [ ] Sleep
 ### Search
