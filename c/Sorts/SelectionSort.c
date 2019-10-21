@@ -1,3 +1,9 @@
+/**
+ * Selection Sort
+ * sorts an array of integers
+ * array: the array to be sorted
+ * length: the length of the array
+ */ 
 void selectionSort(int *array, int length) {
     int i;
     int j;
